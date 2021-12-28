@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "final-backend"
+version = "0.1.0"
+description = ""
+authors = ["abdallah alabed <abd.alabed97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0"
+django-multiselectfield = "^0.1.12"
+djangorestframework = "^3.13.1"
+Pillow = "^8.4.0"
+django-mysql = "^4.3.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
